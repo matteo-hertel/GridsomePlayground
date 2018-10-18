@@ -5,6 +5,7 @@
         <g-link :to="{ name: 'home' }">Gridsome</g-link>
       </strong>
       <nav class="nav">
+        <g-link class="nav__link" :to="{ name: 'test' }">Test</g-link>
         <g-link class="nav__link" :to="{ name: 'home' }">Home</g-link>
         <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
       </nav>
@@ -15,9 +16,10 @@
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
